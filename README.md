@@ -1,7 +1,34 @@
-# Refactoring MVC
+![Lineman build](https://travis-ci.org/JbPasquier/mean-lineman.svg?branch=master)
 
-Do an MVC template from this file.
+# [MEAN](http://mean.io/) Starter with [Lineman](http://linemanjs.com/)
 
-Must have views, controllers and models in separate folders.
+## Angular (only ATM)
 
-Don't use CDN.
+### Requirements
+
+-   [Node](https://doc.ubuntu-fr.org/nodejs#depuis_un_ppa)
+-   [MongoDB](https://doc.ubuntu-fr.org/mongodb#installation)
+
+### Execution
+
+#### Installation
+
+```bash
+git clone git@github.com:JbPasquier/mean-lineman.git
+cd mean-lineman
+npm install
+```
+
+#### Development
+
+```bash
+npm start
+```
+
+#### Production
+
+```bash
+npm run production
+```
+
+[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
